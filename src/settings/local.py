@@ -11,10 +11,10 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', ]
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'eCommerceDjango',  # postgres db name
-        'USER': 'kamil',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'sunset',  # postgres db name
+        'USER': 'postgres',
+        'PASSWORD': 'root',
+        'HOST': '0.0.0.0',
         'PORT': '',
     }
 }
