@@ -10,8 +10,8 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', ]
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sunset',  # postgres db name
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dispatch',  # postgres db name
         'USER': 'postgres',
         'PASSWORD': 'root',
         'HOST': '0.0.0.0',
