@@ -4,6 +4,9 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+SECRET_KEY = '292dcf88ebc4268e63807b40401225d5784642d0a7c197572bd2e699aa044d41'
+
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',

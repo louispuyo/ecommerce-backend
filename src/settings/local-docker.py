@@ -10,10 +10,11 @@ ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', ]
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'sunset',
         'USER': 'postgres',
-        'HOST': 'db',
+        'PASSWORD': 'root',
+        'HOST': '0.0.0.0',
         'PORT': '5432',
     }
 }
@@ -27,5 +28,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-STRIPE_SECRET_KEY = 'YOUR_STRIPE_SECRET_KEY'
-STRIPE_PUBLISHABLE_KEY = 'YOUR_STRIPE_PUBLISHABLE_KEY'
+STRIPE_SECRET_KEY = 'sk_test_5BvPLqOw9Mlev8XxXN10qAdQ00ZP1E8a5T'
+STRIPE_PUBLISHABLE_KEY = 'pk_test_P9hWMHFzKRfWHCOpgX0jsJbT00VKslhF2p'
