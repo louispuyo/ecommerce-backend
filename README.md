@@ -75,3 +75,5 @@ In order to use [Stripe payments](https://stripe.com/) one needs to create an ac
 
 1. Implement an API endpoint at `/api/orders/` to accept POST request with order JSON from authenticated user, and GET requests from superuser (for further processing).
 2. Implement password recovery.
+3. Change REST API into Graphql api -> by Graphene and Hasura*
+4. Set endpoint for social media
